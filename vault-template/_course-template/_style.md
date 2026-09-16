@@ -1,6 +1,6 @@
 # <COURSE NAME>
 
-> General rules are in [[_instructions]] at the vault root.
+> General rules are in [_instructions.md](../_instructions.md) at the top level.
 > This file holds only what is specific to this course.
 
 ## מה מיוחד בקורס הזה

@@ -88,9 +88,9 @@ if [ -f "$CONFIG" ] && [ -d "$(cat "$CONFIG")" ]; then
 else
   say ""
   say "${BOLD}Where should your notes live?${OFF}"
-  say "${DIM}A folder for transcripts and notes. If you use Obsidian, open this folder"
-  say "as a vault afterwards. Keep it OFF Google Drive - Drive's streaming files"
-  say "confuse Obsidian.${OFF}"
+  say "${DIM}A plain folder for transcripts and notes. Any text editor opens them."
+  say "Obsidian is nice here but entirely optional."
+  say "Keep it OFF Google Drive - streaming files confuse note apps.${OFF}"
   say ""
   printf "  path [%s]: " "$HOME/Desktop/Lectures"
   read -r VAULT

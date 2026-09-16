@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-Transcribe a lecture recording into the Obsidian vault.
+Transcribe a lecture recording into your notes folder.
 
 Runs offline on the CPU using the ivrit-ai Hebrew Whisper model, which also
 handles English and mixed Hebrew/English lectures.
@@ -10,7 +10,7 @@ handles English and mixed Hebrew/English lectures.
     transcribe.py talk.mp4 --course 71204 --lang he     # skip detection
     transcribe.py --list                                 # show course names
 
-Writes  <name>.txt  and  <name>.srt  into  NOTES/<course>/transcripts/.
+Writes  <name>.txt  and  <name>.srt  into  <notes>/<course>/transcripts/.
 
 Terminology listed at the bottom of the course's _style.md is fed to Whisper as
 context, which sharply improves accuracy on course-specific words and on the

@@ -106,6 +106,7 @@ if [ -f "$VAULT/_instructions.md" ]; then
   skip "_instructions.md already there (not overwriting)"
 else
   cp "$SCRIPT_DIR/vault-template/_instructions.md" "$VAULT/" 2>/dev/null && ok "_instructions.md (fill this in - it is yours to write)"
+  cp "$SCRIPT_DIR/vault-template/_instructions.EXAMPLE.md" "$VAULT/" 2>/dev/null && ok "_instructions.EXAMPLE.md (a worked example to read first)"
 fi
 if [ -f "$VAULT/CLAUDE.md" ]; then
   skip "CLAUDE.md already there (not overwriting)"

@@ -8,6 +8,10 @@
 >
 > *This is a blank template. Fill it in yourself. It is read before every
 > conversion and decides what the notes look like.*
+>
+> **יש דוגמה מלאה ב-[`_instructions.EXAMPLE.md`](_instructions.EXAMPLE.md)** —
+> כדאי לקרוא אותה קודם כדי לראות איך קובץ מלא נראה. ההעדפות שם שרירותיות,
+> והדוגמה קיימת כדי להראות שיש כאן בחירות אמיתיות ולא תבנית למלא.
 
 ---
 

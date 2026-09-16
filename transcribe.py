@@ -244,7 +244,12 @@ def main() -> None:
     if not args.course:
         sys.exit("--course is required so the transcript lands in the right folder.")
     if not shutil.which("ffmpeg"):
-        sys.exit("ffmpeg not found. Install with: brew install ffmpeg")
+        sys.exit(
+            "ffmpeg not found. Install it with whichever fits:\n"
+            "  conda install -c conda-forge ffmpeg     (works everywhere)\n"
+            "  brew install ffmpeg                     (macOS)\n"
+            "  winget install ffmpeg                   (Windows)"
+        )
 
     course = find_course(args.course)
     outdir = course / "transcripts"
